@@ -1,0 +1,2 @@
+rom_picture.v,verilog,xil_defaultlib,../../../../HDMI_PICTURE.srcs/sources_1/ip/rom_picture/sim/rom_picture.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

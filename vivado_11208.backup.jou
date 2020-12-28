@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec 26 22:38:24 2020
+# Process ID: 11208
+# Current directory: C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12560 C:\Users\aiai\Desktop\study\FPGA\Xlinx\picture_Make_Study\HDMI_picture\HDMI_PICTURE\HDMI_PICTURE.xpr
+# Log file: C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/vivado.log
+# Journal file: C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.runs/impl_1/LCD_TOP.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.runs/impl_1/LCD_TOP.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.runs/impl_1/LCD_TOP.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"U_LCD_driver/your_instance_name"}]]
+set_property PROBES.FILE {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.runs/impl_1/LCD_TOP.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.runs/impl_1/LCD_TOP.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.runs/impl_1/LCD_TOP.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"U_LCD_driver/your_instance_name"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"U_LCD_driver/your_instance_name"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"U_LCD_driver/your_instance_name"}]
+save_wave_config {C:/Users/aiai/Desktop/study/FPGA/Xlinx/picture_Make_Study/HDMI_picture/HDMI_PICTURE/HDMI_PICTURE.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
